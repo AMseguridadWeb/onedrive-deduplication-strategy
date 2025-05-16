@@ -23,8 +23,52 @@ Incluye scripts PowerShell y una estrategia completa para:
 
 ## 📁 Estructura
 
-<footer>
+scripts/
+├── organizar_documentos.ps1 # Classify files by type
+├── AnalisisHashpresente.ps1 # Remove duplicates via hash
+├── ConsolidarEnAntonio.ps1 # (Coming soon) Final consolidation
+├── audPerfiles.ps1 # Profile scanning
+docs/
+├── Estrategia_Hash_Onedrive.md # Technical strategy article
 
+
+
+---
+
+## ⚙️ Requirements
+
+- Windows 10/11 with PowerShell 5.1 or 7+
+- Administrator privileges
+- OneDrive client properly installed
+
+---
+
+## 🚀 Usage
+
+1. **Classify files**
+   ```powershell
+   .\organizar_documentos.ps1
+
+.\AnalisisHashpresente.ps1
+.\ConsolidarEnAntonio.ps1
+
+
+<footer>
+📦 Features
+Recursive directory scan
+
+SHA256 content-based comparison
+
+Keeps only the most recent file
+
+Ready for OneDrive and SharePoint integration
+
+🔐 License
+MIT License
+
+👤 Author
+Antonio Madroñal Gómez | LinkedIn: https://www.linkedin.com/in/antoniocarpf
+© 2025 Getafe, Madrid – Spain
 <!--
   <<< Author notes: Footer >>>
   Add a link to get support, GitHub status page, code of conduct, license link.
