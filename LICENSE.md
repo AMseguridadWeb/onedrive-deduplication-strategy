@@ -8,3 +8,5 @@ The protocol and philosophy defined herein are shared publicly to foster ethical
 
 See the full license terms at:
 Ver [LICENSE](https://github.com/hubCARPF/protocoloCARPF-etico-humanIA/blob/master/LICENSE.md)
+
+> 🧩 Esta solución forma parte del ecosistema CARPF de herramientas aplicadas. Más en: [CARPF Ético-HumanIA](https://github.com/hubCARPF/protocoloCARPF-etico-humanIA)
