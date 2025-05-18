@@ -25,4 +25,4 @@ This project is part of the [CARPF Ethical Protocol Initiative](https://github.c
 
 ## 🛡 License
 
-This project is licensed under the [CARPF Ethical License](https://github.com/hubCARPF/protocoloCARPF-etico-humanIA/blob/main/LICENSE)
+This project is licensed under the [CARPF Ethical License](https://github.com/hubCARPF/protocoloCARPF-etico-humanIA/blob/master/LICENSE.md)
