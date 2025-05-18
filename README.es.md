@@ -25,4 +25,5 @@ Este trabajo forma parte del [Protocolo Ético CARPF](https://github.com/hubCARP
 
 ## 🛡 Licencia
 
-Este proyecto está bajo la [Licencia Ética Profesional CARPF](https://github.com/hubCARPF/protocoloCARPF-etico-humanIA/blob/main/LICENSE)
+
+This project is part of the [CARPF Ethical Protocol Initiative](https://github.com/hubCARPF/protocoloCARPF-etico-humanIA)
