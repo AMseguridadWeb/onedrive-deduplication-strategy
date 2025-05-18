@@ -1,80 +1,81 @@
-<header>
-
-## 🇪🇸 `README.es.md`
-
-```markdown
-# Estrategia de Eliminación de Duplicados en OneDrive
+# 🗃️ Estrategia de Eliminación de Duplicados en OneDrive
 
 ## 🧠 Resumen
 
-Este proyecto documenta y automatiza una solución real para consolidar y deduplicar documentos en un entorno Windows multiusuario sincronizado con OneDrive.
+Este proyecto documenta y automatiza una solución real para **consolidar y deduplicar documentos** en un entorno Windows multiusuario sincronizado con OneDrive.
 
 Incluye scripts PowerShell y una estrategia completa para:
 
-- Auditar y corregir la configuración de sincronización de OneDrive
-- Clasificar documentos por tipo (PDF, DOCX, XML, etc.)
-- Normalizar nombres de archivo largos (>260 caracteres)
-- Eliminar duplicados exactos mediante hash SHA256
-- Consolidar todos los archivos válidos en un usuario maestro (`AntonioMadroñal`)
+- 🧪 Auditar y corregir la configuración de sincronización de OneDrive
+- 🗂️ Clasificar documentos por tipo (PDF, DOCX, XML, etc.)
+- ✍️ Normalizar nombres de archivo largos (>260 caracteres)
+- 🔍 Eliminar duplicados exactos mediante hash SHA256
+- 📦 Consolidar todos los archivos válidos en un usuario maestro (`AntonioMadroñal`)
 
 > 🇬🇧 This project is also available in [English](README.md)
 
 ---
 
-## 📁 Estructura
+## 📁 Estructura del proyecto
 
 scripts/
-├── organizar_documentos.ps1 # Classify files by type
-├── AnalisisHashpresente.ps1 # Remove duplicates via hash
-├── ConsolidarEnAntonio.ps1 # (Coming soon) Final consolidation
-├── audPerfiles.ps1 # Profile scanning
+├── organizar_documentos.ps1 # Clasifica archivos por tipo
+├── AnalisisHashpresente.ps1 # Elimina duplicados usando hash SHA256
+├── ConsolidarEnAntonio.ps1 # (Próximamente) Consolidación final
+├── audPerfiles.ps1 # Escaneo de perfiles de usuario
 docs/
-├── Estrategia_Hash_Onedrive.md # Technical strategy article
-
-
+└── Estrategia_Hash_Onedrive.md # Artículo explicativo detallado
 
 ---
 
-## ⚙️ Requirements
+## ⚙️ Requisitos
 
-- Windows 10/11 with PowerShell 5.1 or 7+
-- Administrator privileges
-- OneDrive client properly installed
+- Windows 10/11 con PowerShell 5.1 o superior
+- Permisos de administrador
+- Cliente de OneDrive instalado y correctamente configurado
 
 ---
 
-## 🚀 Usage
+## 🚀 Ejecución básica
 
-1. **Classify files**
-   ```powershell
-   .\organizar_documentos.ps1
+```powershell
+# Paso 1: Clasificar archivos
+.\organizar_documentos.ps1
 
+# Paso 2: Detectar duplicados
 .\AnalisisHashpresente.ps1
+
+# Paso 3: Consolidar (próximamente)
 .\ConsolidarEnAntonio.ps1
 
+📦 Funcionalidades
+Escaneo recursivo de directorios
 
-<footer>
-📦 Features
-Recursive directory scan
+Comparación basada en contenido (SHA256)
 
-SHA256 content-based comparison
+Conserva la versión más reciente de los archivos duplicados
 
-Keeps only the most recent file
+Preparado para integración con OneDrive y SharePoint
 
-Ready for OneDrive and SharePoint integration
+👤 Autor
+Antonio Madroñal Gómez
+📍 Getafe, Madrid, España
+🔗 LinkedIn
+📧 antonio.madronal@carpf.es
 
-🔐 License
-MIT License
+🔐 Licencia
+Este proyecto se publica bajo la Licencia Ética Profesional CARPF.
+Uso educativo y personal libre con atribución.
+El uso profesional se realiza bajo contrato.
 
-👤 Author
-Antonio Madroñal Gómez | LinkedIn: https://www.linkedin.com/in/antoniocarpf
-© 2025 Getafe, Madrid – Spain
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
+🌐 Proyecto relacionado
+Este repositorio forma parte de la iniciativa ética y profesional CARPF.
+Descubre más sobre el marco completo en:
+
+👉 Protocolo CARPF Ético HumanIA
+
 
 ---
 
-Antonio Madroñal Gómez | Linkedin (https://www.linkedin.com/in/antoniocarpf/) © 2025 Getafe , Madrid - España -
-</footer>
+¿Quieres que lo subamos directamente al repositorio como `README.es.md` actualizado? También puedo ayudarte a preparar la versión en inglés (`README.md`) para mantener la coherencia internacional.
+
