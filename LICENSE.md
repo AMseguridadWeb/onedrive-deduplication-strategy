@@ -7,4 +7,4 @@ This license allows the use, modification, and distribution of this material for
 The protocol and philosophy defined herein are shared publicly to foster ethical AI use. Any use in professional environments or contractual services must be governed by agreement with the author.
 
 See the full license terms at:
-https://github.com/hubCARPF/protocoloCARPF-etico-humanIA/blob/main/LICENSE
+Ver [LICENSE](https://github.com/hubCARPF/protocoloCARPF-etico-humanIA/blob/master/LICENSE.md)
