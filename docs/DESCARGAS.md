@@ -10,8 +10,6 @@ Lista centralizada de documentos técnicos, scripts y archivos útiles del repos
 
 ## 📂 Scripts
 
-- [AnalisisHashpresente.ps1](./scripts/AnalisisHashpresente.ps1)  
-  🧪 Descripción: Script para análisis de hash en OneDrive.
 - [Estrategia_Hash_OneDrive.md](./Estrategia_Hash_OneDrive.md)  
   📝 Descripción: Estrategia documentada de hash para deduplicación en OneDrive.
 
