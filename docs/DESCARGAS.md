@@ -4,7 +4,7 @@ Lista centralizada de documentos técnicos, scripts y archivos útiles del repos
 
 ## 📂 Documentación Técnica
 
-- [Doc-tecnico-capf-365-sharepoint-chatGPT.docx](./docs/Doc-tecnico-capf-365-sharepoint-chatGPT.docx)  
+- [Doc-tecnico-capf-365-sharepoint-chatGPT.docx](./Doc-tecnico-capf-365-sharepoint-chatGPT.docx)  
   📄 Descripción: Paper de cómo solucioné el problema con ChatGPT y SharePoint 365.
 
 ## 📂 Scripts
