@@ -8,14 +8,5 @@ Lista centralizada de documentos técnicos, scripts y archivos útiles del repos
 - [Doc-tecnico-capf-365-sharepoint-chatGPT.docx](./Doc-tecnico-capf-365-sharepoint-chatGPT.docx)  
   📄 Descripción: Paper de cómo solucioné el problema con ChatGPT y SharePoint 365.
 
-## 📂 Scripts
-
-- [Estrategia_Hash_OneDrive.md](./Estrategia_Hash_OneDrive.md)  
-  📝 Descripción: Estrategia documentada de hash para deduplicación en OneDrive.
-
-## 📂 Otros Archivos
-
-- [DESCARGAS.md](./docs/DESCARGAS.md  
-  📄 Descripción: Archivo de entrada con contenido original antes de generar los enlaces.
 
 ---
